@@ -11,8 +11,86 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+  <nav class="navbar navbar-fixed-top navbar-inverse">
+    <div class="container">
+   <div class="navbar-header">
+    <!--トグルボタンの設置-->
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-content">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#">Mayu's Portfolio</a>
+    </div>
+      <div id="nav-content"  class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right index">
+         <li><a href="">Top</a></li>
+         <li><a href="">Works</a></li>
+         <li><a href="">About</a></li>
+        </ul>
+        </div>
+        </div>
+  </nav>
+ 　<header class="jumbotron">
+      <div class="container">
+        <h1>Mayu's Portfolio</h1>
+      </div>
+    </header>
+<section class="works">
+        <div class="container bottom">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading bottom">Works</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <h4>作り置きレシピ</h4>
+                     <img src="tsukurioki.jpg" class="img-responsive img-circle" alt="">
+                    <p class="text-muted">テキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミー</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>英単語練習帳</h4>
+                     <img src="eitango.jpg" class="img-responsive img-circle" alt="">
+                    <p class="text-muted">テキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミー</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>自宅でヨガ</h4>
+                     <img src="yoga.jpg" class="img-responsive img-circle" alt="">
+                    <p class="text-muted">テキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミー</p>
+                </div>
+            </div>
+        </div>
+</section>
+<section class="profile bottom">
+  <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About</h2>
+                </div>
+                <div class="col-md-offset-4">
+                    <p>Okazaki Mayu<br>
+                    出版社に勤務。<br>
+                    趣味は食べることとプログラミング。<br>
+                    作り置きのレシピサイトを作ることを目指して勉強中。
+                    </p>
+                    <p>
+                    わたしのGithubページは
+                    <a href="https://github.com/mayu73">こちら</a>
+                    </p>
+                </div>
+            </div>
+  </div>
+</section>    
+    
+<footer class="footer">
+  <div class="container">
+    <p class="text-muted">Copyright (C) 2016 All Rights Reserved.</p>
+  </div>
+</footer>
+
   </body>
 </html>
